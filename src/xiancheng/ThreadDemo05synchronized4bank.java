@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * 都加锁读最后变量
  */
 
-public class TreadDemo05synchronized4 {
+public class ThreadDemo05synchronized4bank {
 
     String name;
     double balance;
@@ -48,7 +48,7 @@ public class TreadDemo05synchronized4 {
     public static void main(String[] args) {
         long startTime=System.currentTimeMillis();   //获取开始时间
 
-        TreadDemo05synchronized4 a = new TreadDemo05synchronized4();
+        ThreadDemo05synchronized4bank a = new ThreadDemo05synchronized4bank();
         new Thread(() -> a.set("zhangsan", 100.0)).start();
 
         try {

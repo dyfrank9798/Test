@@ -13,7 +13,7 @@ package xiancheng;
  * m4  等价m3
  */
 
-public class TreadDemo05synchronized3 {
+public class ThreadDemo05synchronized3 {
 
     private int count = 10;
     private static int count1 = 10;
@@ -36,7 +36,7 @@ public class TreadDemo05synchronized3 {
     }
 
     public static void mm(){
-        synchronized (TreadDemo05synchronized3.class){
+        synchronized (ThreadDemo05synchronized3.class){
             count1--;
         }
 

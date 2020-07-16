@@ -1,10 +1,8 @@
 package xiancheng;
 
-import sun.applet.Main;
-
 import java.util.concurrent.TimeUnit;
 
-public class TreadDemo01 {
+public class ThreadDemo01 {
 
     private static class T1  extends  Thread{
         public void run(){

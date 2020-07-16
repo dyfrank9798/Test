@@ -12,7 +12,7 @@ package xiancheng;
  *  .interrupt 打断。打断进程肯定会抛出一个异常Exception。需要自己catch。并不能结束线程，也不建议用于业务逻辑。
  *
  */
-public class TreadDemo03sleep {
+public class ThreadDemo03sleep {
 
     public static void main(String[] args) {
 //        sleep();

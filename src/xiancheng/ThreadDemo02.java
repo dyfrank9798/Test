@@ -7,7 +7,7 @@ package xiancheng;
  * 3.通过线程池(Excutors.newCachedThread)
  * 这里只展示12种
  */
-public class TreadDemo02 {
+public class ThreadDemo02 {
 
     private static class MyThread  extends  Thread{
         public void run(){

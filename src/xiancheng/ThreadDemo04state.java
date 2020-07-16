@@ -3,7 +3,7 @@ package xiancheng;
 /**
  * 获取线程的状态
  */
-public class TreadDemo04state {
+public class ThreadDemo04state {
 
    private  static class MyThread extends Thread{
        @Override

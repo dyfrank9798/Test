@@ -7,7 +7,7 @@ package xiancheng;
  * 锁定当前对象
  */
 
-public class TreadDemo05synchronized2 {
+public class ThreadDemo05synchronized2 {
 
     private int count = 10;
     public void m() {

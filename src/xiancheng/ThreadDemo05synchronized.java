@@ -4,10 +4,10 @@ package xiancheng;
  * synchronized 关键字
  * 给某个对象加锁
  *
- * 原理是，加速的对象的前两位什么什么码需要一样。也就是说，锁的一个对象，才是锁在一起。
+ * 原理是，加锁的对象的前两位什么什么码需要一样。也就是说，锁的一个对象，才是锁在一起。
  */
 
-public class TreadDemo05synchronized {
+public class ThreadDemo05synchronized {
 
     private int count = 10;
     private Object o = new Object();
