@@ -47,7 +47,7 @@ public class Future_AlibabaInterview01_Guava {
         });
         /**
          *
-         * 上面参考demo01，也就是pool.submit了Callable，返回了future
+         * 上面参考callableDemo01，也就是pool.submit了Callable，返回了future
          * 下面代码，获得了future，要看是否有事件发生在future上。future, new FutureCallback<Integer>()
          */
 
