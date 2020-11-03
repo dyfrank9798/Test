@@ -11,6 +11,7 @@ import java.util.Map;
 public class TestMap {
     public static void main(String[] args) {
         Map map = new HashMap();
-//        map ={"key":"value"};
+        map.put("文旺","sb");
+        System.out.println(map.toString());
     }
 }
