@@ -160,6 +160,12 @@
             <artifactId>orai18n</artifactId>
             <version>12.1.0.2.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
+        </dependency>
     </dependencies>
 
 </project>

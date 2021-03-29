@@ -9,6 +9,8 @@ import java.util.concurrent.TimeUnit;
  * @data 2020-07-2020/7/21-10:21
  * @Description
  *
+ *Volatile关键字
+ *1.保证线程可见性2.禁止指令重排序
  *
  * Volatile关键字，使一个变量在多个线程中可见
  * A B线程都用到一个变量，java默认是A线程中保留一份copy，这样
@@ -33,7 +35,7 @@ import java.util.concurrent.TimeUnit;
  * 2.禁止指令重排序
  *  DCL单例
  *  double check lock
- * 
+ *
  */
 public class ThreadDemo09Volatile {
   /*volatile */boolean running = true;
